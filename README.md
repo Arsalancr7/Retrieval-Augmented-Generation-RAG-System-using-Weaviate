@@ -1,3 +1,6 @@
+## 📊 Architecture
+
+```mermaid
 flowchart TD
     A[Raw Documents] --> B[Embedding Model (OpenAI / SentenceTransformer)]
     B --> C[Weaviate Vector DB]
